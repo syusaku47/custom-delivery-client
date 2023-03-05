@@ -5,7 +5,7 @@ h1{
 }
 
 .container {
-  padding: 0px 60px;
+  padding: 30px 60px;
   background-color:  #ffffff;    /* 背景色指定 */
   height: 100vh;              /* 高さ指定 */
   width: 100%;               /* 幅指定 */
@@ -19,4 +19,8 @@ h1{
   gap:0px 0.5rem;
   /*justify-content: center;*/
   align-items: center;
+}
+
+.left_item{
+  width: 84px;
 }
