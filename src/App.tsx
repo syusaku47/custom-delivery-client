@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { Prefecture } from "./collection/prefecture.collection";
+import './App.css'
 
  // 配送情報の型定義
 type DeliveryInfoType = {offset_days:number,display_num:number}
@@ -75,7 +76,8 @@ function App() {
     <div>
       <div className="container">
         <h1>配送日指定システム</h1>
-        <h2>下記から配送日希望日をご指定ください</h2>
+        <h2>下記から配送希望日をご指定ください</h2>
+
         <div className="contents">
           <div className="left_item">
             <span>都道府県</span>
